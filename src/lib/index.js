@@ -1,3 +1,3 @@
-import TextInput from "./TextInput"
+import MatchaAdvisor from "../advisor"
 
-export { TextInput }
+export { MatchaAdvisor }
