@@ -2,7 +2,8 @@
   "env": {
     "browser": true,
     "es6": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
   "globals": {
@@ -18,7 +19,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react-hooks"],
+  "plugins": ["react-hooks", "jest"],
   "rules": {
     "no-console": 0,
     "promise/always-return": 0,
