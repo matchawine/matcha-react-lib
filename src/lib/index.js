@@ -1,3 +1,3 @@
-import MatchaAdvisor from "../advisor"
+import MatchaAdvisor from "../MatchaAdvisor"
 
 export { MatchaAdvisor }
