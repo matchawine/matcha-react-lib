@@ -14,6 +14,7 @@ MatchaAdvisor.propTypes = {
   userId: PropTypes.string,
   env: PropTypes.string,
   newTab: PropTypes.bool,
+  initialWindow: PropTypes.string,
   shopId: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   onPurchase: PropTypes.func,
   onLoad: PropTypes.func,
