@@ -23,6 +23,7 @@ const AddAdvisorScript = props => {
       })
 
     return () => {
+      console.log("deactivate")
       getGlobalPreferences().deactivate()
     }
   })
