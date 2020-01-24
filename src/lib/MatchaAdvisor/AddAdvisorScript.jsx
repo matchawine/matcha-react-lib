@@ -32,7 +32,10 @@ const AddAdvisorScript = props => {
     <AddScript
       target={document.body}
       src={getScriptUrl(config.env)}
-      onAlreadyExist={() => getGlobalPreferences().activate()}
+      onAlreadyExist={() => {
+        console.log("already exists")
+        getGlobalPreferences().activate()
+      }}
       onLoad={onLoad}
     />
   )
