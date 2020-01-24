@@ -1,6 +1,6 @@
 {
   "name": "matcha-react-lib",
-  "version": "1.0.0",
+  "version": "2.0.0-beta1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@testing-library/jest-dom": "^4.1.2",
     "@testing-library/react": "^9.3.0",
     "babel-preset-react-app": "^9.0.2",
