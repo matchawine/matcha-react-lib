@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { memo, useEffect } from "react"
 import AddScript from "../utils/add-script/AddScript"
 
 const getGlobalPreferences = () => global.__MATCHA__PREFERENCES
@@ -41,4 +41,4 @@ const AddAdvisorScript = props => {
   )
 }
 
-export default AddAdvisorScript
+export default memo(AddAdvisorScript)
