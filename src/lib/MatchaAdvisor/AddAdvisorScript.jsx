@@ -22,20 +22,14 @@ const AddAdvisorScript = props => {
         },
       })
 
-    return () => {
-      console.log("deactivate")
-      getGlobalPreferences().deactivate()
-    }
+    return () => getGlobalPreferences().deactivate()
   })
 
   return (
     <AddScript
       target={document.body}
       src={getScriptUrl(config.env)}
-      onAlreadyExist={() => {
-        console.log("already exists")
-        getGlobalPreferences().activate()
-      }}
+      onAlreadyExist={() => getGlobalPreferences().activate()}
       onLoad={onLoad}
     />
   )
