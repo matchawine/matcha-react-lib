@@ -10,6 +10,7 @@ const createScriptTag = attributes => {
 
 export const addScript = (target, attributes, options = {}) => {
   const { ifNotExists = false } = options
+  console.log("attributes.src", attributes.src)
   if (ifNotExists && hasSrc(attributes.src)) return
 
   const scriptTag = createScriptTag(attributes)

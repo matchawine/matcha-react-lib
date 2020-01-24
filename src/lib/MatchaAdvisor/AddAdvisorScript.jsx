@@ -14,7 +14,6 @@ const getScriptUrl = (env = "prod") =>
 const AddAdvisorScript = props => {
   const { onLoad, ...config } = props
   useEffect(() => {
-    throw new Error("test error")
     if (!getGlobalPreferences())
       setGlobalPreferences({
         ...config,

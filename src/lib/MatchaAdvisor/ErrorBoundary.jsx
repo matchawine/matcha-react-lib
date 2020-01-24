@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import { Component } from "react"
 
 const logError = (error, errorInfo) => {
   console.warn("Error in Matcha advisor: ", error, errorInfo)
@@ -16,10 +16,9 @@ class ErrorBoundary extends Component {
   }
 
   render() {
-    // const { children } = this.props
+    const { children } = this.props
     const { hasError } = this.state
-    console.log("hasError", hasError)
-    return hasError ? <div>there is an error</div> : this.props.children
+    return hasError ? null : children
   }
 }
 
