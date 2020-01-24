@@ -1,6 +1,6 @@
 {
   "name": "matcha-react-lib",
-  "version": "2.0.0-beta.4",
+  "version": "2.0.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
