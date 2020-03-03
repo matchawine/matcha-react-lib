@@ -35,3 +35,10 @@ export default MyMatchaAdvisor
   - **onPurchase** : Function.
     **This integration is strongly recommended.**
     Sends the purchase action to your website kart via the [Matcha purchase API](https://gist.github.com/DiesIrae/b9a2260dbb7c411d7bb6807f892575bf#file-matchapurchase-md) (see this documentation to implement it).
+
+  - **onPurchase** : Function.
+    **This integration is strongly recommended.**
+    Sends the purchase action to your website kart via the [Matcha purchase API](https://gist.github.com/DiesIrae/b9a2260dbb7c411d7bb6807f892575bf#file-matchapurchase-md) (see this documentation to implement it).
+
+  - **lang** : String (default "fr"). Values can be in: `["en", "fr"]`.
+    Interface & conversation language of Matcha Advisor.
