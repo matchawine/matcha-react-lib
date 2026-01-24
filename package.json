@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "prop-types": "^15.7.2"
   },
   "repository": {
